@@ -9,7 +9,7 @@ MQTT_KEEPALIVE_INTERVAL = 45
 MQTT_TOPIC = "test/testing"
 MQTT_MSG = "hello MQTT"
 
-MQTT_HOST = "a2zxp1r0bqioas-ats.iot.us-east-2.amazonaws.com"
+MQTT_HOST = "a2ttgzc08qze6c-ats.iot.us-east-2.amazonaws.com"
 CA_ROOT_CERT_FILE = "./cert/root-CA.crt"
 THING_CERT_FILE = "./cert/MyThing.cert.pem"
 THING_PRIVATE_KEY = "./cert/MyThing.private.key"
@@ -17,7 +17,7 @@ THING_PRIVATE_KEY = "./cert/MyThing.private.key"
 
 # Define on_publish event function
 def on_publish(client, userdata, mid):
-	print "Message Published..."
+	print("Message Published...")
 
 
 # Initiate MQTT Client
